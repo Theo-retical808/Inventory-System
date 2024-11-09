@@ -1,0 +1,8 @@
+@media print{
+    body *:not(#print):not(#print *){visibility:hidden;}
+}
+#print{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
